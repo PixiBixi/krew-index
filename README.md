@@ -16,7 +16,7 @@ Update later:
 
 ```bash
 kubectl krew update
-kubectl krew upgrade pixibixi/ice pixibixi/klens
+kubectl krew upgrade ice klens
 ```
 
 > Plugins in this index are not audited by the Krew maintainers. Install at your own risk.
