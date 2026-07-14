@@ -4,32 +4,32 @@ kind: Plugin
 metadata:
   name: klens
 spec:
-  version: v0.6.5
+  version: v0.6.6
   platforms:
     - bin: kubectl-klens
-      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.6.5/kubectl-klens_0.6.5_Linux_x86_64.tar.gz
-      sha256: d206e0e8edff69c9c0d7d7314727c7a3304de83bdca768498a011fbc798244ec
+      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.6.6/kubectl-klens_0.6.6_Linux_x86_64.tar.gz
+      sha256: 858b187216ff658570f6576f25a2ed7e712b14a84207de2a34588e151b843128
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-klens
-      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.6.5/kubectl-klens_0.6.5_Linux_arm64.tar.gz
-      sha256: c0a03b7c572d015ea07a5dea870ed0b458991777b2e33df90f68eb7b192597a6
+      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.6.6/kubectl-klens_0.6.6_Linux_arm64.tar.gz
+      sha256: 6b4f552d6f7933e7f6e575cf093c77c6d63cc68036d01b338acb1613e6a810a4
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-klens
-      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.6.5/kubectl-klens_0.6.5_Darwin_x86_64.tar.gz
-      sha256: d9bb87efc0928e9f3a6dd6f09724b8fbb0fff21e73721a5a47fd1b608115b93c
+      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.6.6/kubectl-klens_0.6.6_Darwin_x86_64.tar.gz
+      sha256: cd7d79a2e20373ee3c9b346a0fddc7a68823ddd3f28372c20efd69587f36ee7e
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kubectl-klens
-      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.6.5/kubectl-klens_0.6.5_Darwin_arm64.tar.gz
-      sha256: 9524068fa67c6f7f0273714141aeebb760399afde4d1855119a7e5aee9410cbe
+      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.6.6/kubectl-klens_0.6.6_Darwin_arm64.tar.gz
+      sha256: cb7ea4ddd28f27a33101b3af73862f3074e5c419cf14c1eb39682da46b54d3b5
       selector:
         matchLabels:
           os: darwin
