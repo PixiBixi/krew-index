@@ -4,32 +4,32 @@ kind: Plugin
 metadata:
   name: ice
 spec:
-  version: v0.4.0
+  version: v0.4.1
   platforms:
     - bin: kubectl-ice
-      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.4.0/kubectl-ice_0.4.0_Linux_x86_64.tar.gz
-      sha256: 66454ee943beddfad19f8daad617394e64f08648f22fa91fde51d9910fba8799
+      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.4.1/kubectl-ice_0.4.1_Linux_x86_64.tar.gz
+      sha256: c420efbaef1251b622ac51a37aaa3a4b52d1ceb13159a19dd87274e4055605d7
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-ice
-      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.4.0/kubectl-ice_0.4.0_Linux_arm64.tar.gz
-      sha256: 26ca9162e2c4ad09da51c41ecaf52cdcc14d09e89ae320aff008aaf0ea4aa001
+      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.4.1/kubectl-ice_0.4.1_Linux_arm64.tar.gz
+      sha256: 5ac3d4492d68c37b6ea2135b7177a95a26dd469364b77d0d98e170f7315f502e
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-ice
-      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.4.0/kubectl-ice_0.4.0_Darwin_x86_64.tar.gz
-      sha256: 8e7e580575325281aa56f56ccf04bd51b269e3e1617431aed98ab5900aa5e92e
+      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.4.1/kubectl-ice_0.4.1_Darwin_x86_64.tar.gz
+      sha256: 96849a1e29166c4f3672cfceecdf178121428a5205bc227dbdfc28e6c9d2dd85
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kubectl-ice
-      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.4.0/kubectl-ice_0.4.0_Darwin_arm64.tar.gz
-      sha256: bef07be4f7c26b0d4cfcb3d8671be7ac63560c850de65a84c8e2212dc9f9c300
+      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.4.1/kubectl-ice_0.4.1_Darwin_arm64.tar.gz
+      sha256: b80bfcb3845850361edf4e371b54658ba313f270c20319776fd95bb05dadcc6c
       selector:
         matchLabels:
           os: darwin
