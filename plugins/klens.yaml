@@ -4,32 +4,32 @@ kind: Plugin
 metadata:
   name: klens
 spec:
-  version: v0.17.0
+  version: v0.18.0
   platforms:
     - bin: kubectl-klens
-      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.17.0/kubectl-klens_0.17.0_Linux_x86_64.tar.gz
-      sha256: a90156fcf681d58208485c69df878f7bcc8bc19a9c8c6780e9d372135e8602b7
+      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.18.0/kubectl-klens_0.18.0_Linux_x86_64.tar.gz
+      sha256: 4af9d8943621bdb26670d231667e2355d79cef0d47ff6bf76627bf7077dd8751
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-klens
-      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.17.0/kubectl-klens_0.17.0_Linux_arm64.tar.gz
-      sha256: 67b617eeceac093e1ed480be2ef09817765e0ab461467b489eb74d69a77423c5
+      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.18.0/kubectl-klens_0.18.0_Linux_arm64.tar.gz
+      sha256: f8a2a6538aa347dc98eb8543cdceca629bcc681e747efcd92fb5a82fa01bbb25
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-klens
-      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.17.0/kubectl-klens_0.17.0_Darwin_x86_64.tar.gz
-      sha256: 781c70d7441d1b7fa6d062c6e31498b58883674f8c4777c6836a116cb31f9119
+      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.18.0/kubectl-klens_0.18.0_Darwin_x86_64.tar.gz
+      sha256: 817be44a3c39ab95e8c8fef859d1ede684d0d02985ea39b26f1418e5da2cd57e
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kubectl-klens
-      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.17.0/kubectl-klens_0.17.0_Darwin_arm64.tar.gz
-      sha256: 99a3bfb85603caaf967e220b0f38f5b70644c64db4c5729511836bff971c0aa3
+      uri: https://github.com/PixiBixi/kubectl-klens/releases/download/v0.18.0/kubectl-klens_0.18.0_Darwin_arm64.tar.gz
+      sha256: b59a96d92dad0ca20716a00e207f0a1b2d0e17229114ce33ffa598a0e96a5d21
       selector:
         matchLabels:
           os: darwin
