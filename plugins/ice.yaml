@@ -4,32 +4,32 @@ kind: Plugin
 metadata:
   name: ice
 spec:
-  version: v0.13.0
+  version: v0.13.1
   platforms:
     - bin: kubectl-ice
-      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.13.0/kubectl-ice_0.13.0_Linux_x86_64.tar.gz
-      sha256: 70e7020d82c4f595ab666afb0f1d85e9c0fc702e99f5179d2992d580f24ad60e
+      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.13.1/kubectl-ice_0.13.1_Linux_x86_64.tar.gz
+      sha256: 5b53cc54aab6f359b10ffed3e6acfd1d4b2ed991a2f7ce2b03c04549d36ecf4b
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-ice
-      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.13.0/kubectl-ice_0.13.0_Linux_arm64.tar.gz
-      sha256: 4996e0a5b018419ab5b7bf754e0c4a1444813fb6895016f10b63839339b51f5c
+      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.13.1/kubectl-ice_0.13.1_Linux_arm64.tar.gz
+      sha256: 3a6e124f1a51741053f3aa41799427234cd322abb6b9bbf9bdcc40b710c90f62
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-ice
-      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.13.0/kubectl-ice_0.13.0_Darwin_x86_64.tar.gz
-      sha256: 6b690b0e481e3f5fafc8eb0b5ff71823ec093f2b37fad61f3ffa55f811fc19e2
+      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.13.1/kubectl-ice_0.13.1_Darwin_x86_64.tar.gz
+      sha256: fe67b876ce9667b2c08bd5ef804bc6c93324c5cedf2765dc71dbb233597703b9
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kubectl-ice
-      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.13.0/kubectl-ice_0.13.0_Darwin_arm64.tar.gz
-      sha256: c8fb8afe22ccfd35fd08ed8db6c20d5195c7ef90cbd6b07ec62f3e4b77f51604
+      uri: https://github.com/PixiBixi/kubectl-ice/releases/download/v0.13.1/kubectl-ice_0.13.1_Darwin_arm64.tar.gz
+      sha256: d61d4b51bd605e4be04088129a4b011ab2ee8dd19ad3f71a5dd677b291d38671
       selector:
         matchLabels:
           os: darwin
