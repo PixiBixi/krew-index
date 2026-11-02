@@ -4,32 +4,32 @@ kind: Plugin
 metadata:
   name: iexec
 spec:
-  version: v2.3.0
+  version: v2.4.0
   platforms:
     - bin: kubectl-iexec
-      uri: https://github.com/PixiBixi/kubectl-iexec/releases/download/v2.3.0/kubectl-iexec_2.3.0_Linux_x86_64.tar.gz
-      sha256: b102ff6a7c68b80dac6b6779e09f2d9aa7f5c3dbc4d54e8db1141900ce42fa70
+      uri: https://github.com/PixiBixi/kubectl-iexec/releases/download/v2.4.0/kubectl-iexec_2.4.0_Linux_x86_64.tar.gz
+      sha256: 9cdeb3e390a03897b4435c96c96130277df25fe720f41d9e4b5ee222da2f180f
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-iexec
-      uri: https://github.com/PixiBixi/kubectl-iexec/releases/download/v2.3.0/kubectl-iexec_2.3.0_Linux_arm64.tar.gz
-      sha256: 699fac0ba1453fe29f337cb8acf7764cc14b5bb18876ac29624ef2ebfce6f747
+      uri: https://github.com/PixiBixi/kubectl-iexec/releases/download/v2.4.0/kubectl-iexec_2.4.0_Linux_arm64.tar.gz
+      sha256: bfae4b5fc09ae557eaef61d5aa22222afb2a24e1f2888be1f668a4cc04249785
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-iexec
-      uri: https://github.com/PixiBixi/kubectl-iexec/releases/download/v2.3.0/kubectl-iexec_2.3.0_Darwin_x86_64.tar.gz
-      sha256: e5ff463f0963a426d7ce7955e5079ed8131ba81c916240c0067e93da2d462363
+      uri: https://github.com/PixiBixi/kubectl-iexec/releases/download/v2.4.0/kubectl-iexec_2.4.0_Darwin_x86_64.tar.gz
+      sha256: d3bd2d5c04bacee0f51b2b5c27886c772636342a4283d9c2061d78afbf8f56d0
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kubectl-iexec
-      uri: https://github.com/PixiBixi/kubectl-iexec/releases/download/v2.3.0/kubectl-iexec_2.3.0_Darwin_arm64.tar.gz
-      sha256: 9047305c07c47c269dc035f596b052a8af76c94f995c699be29ab85f70c9cc30
+      uri: https://github.com/PixiBixi/kubectl-iexec/releases/download/v2.4.0/kubectl-iexec_2.4.0_Darwin_arm64.tar.gz
+      sha256: 10cebf000b6bfd3cdbb992341f24682a7721c5a8830d23cceb99e289dd9e63f9
       selector:
         matchLabels:
           os: darwin
